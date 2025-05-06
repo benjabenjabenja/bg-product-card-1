@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductButtons should render component buttons with custom className 1`] = `
+<div>
+  <div
+    class="buttonsContainer custom-class"
+  >
+    <button
+      class="buttonMinus"
+    >
+       - 
+    </button>
+    <div
+      class="countLabel"
+    >
+       
+       
+    </div>
+    <button
+      class="buttonAdd false "
+    >
+       + 
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductButtons should render component buttons with custom style 1`] = `
+<div>
+  <div
+    class="buttonsContainer undefined"
+    style="background-color: red;"
+  >
+    <button
+      class="buttonMinus"
+    >
+       - 
+    </button>
+    <div
+      class="countLabel"
+    >
+       
+       
+    </div>
+    <button
+      class="buttonAdd false "
+    >
+       + 
+    </button>
+  </div>
+</div>
+`;

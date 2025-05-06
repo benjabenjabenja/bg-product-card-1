@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle should render component with title of product from product context 1`] = `
+<div>
+  <div
+    class="productCard undefined"
+  >
+    <span
+      class="productDescription undefined"
+    >
+      Product 2 - con imagen
+    </span>
+  </div>
+</div>
+`;
+
+exports[`ProductTitle should render component with title personalized 1`] = `
+<div>
+  <span
+    class="productDescription test-class"
+  >
+    Test Product Title
+  </span>
+</div>
+`;

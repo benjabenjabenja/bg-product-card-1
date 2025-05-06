@@ -8,8 +8,6 @@ import styles from '../styles/styles.module.css'
 export const ProductContext = createContext({} as ProductContextProps);
 const { Provider } = ProductContext;
 
-
-
 export interface Props {
     product: Product;
     // children?: React.ReactElement | React.ReactElement[];

@@ -20,10 +20,10 @@ export interface ProductContextProps {
 
 
 export interface ProductCardHOCProps {
-    ({ children, product }: ProductCardProps ):JSX.Element,
-    Buttons: ( Props: ProductButtonsProps ) => JSX.Element,
-    Image:   ( Props: ProductImageProps ) => JSX.Element,
-    Title:   ( Props: ProductTitleProps ) => JSX.Element,
+    ({ children, product }: ProductCardProps ):React.ReactElement,
+    Buttons: ( Props: ProductButtonsProps ) => React.ReactElement,
+    Image:   ( Props: ProductImageProps ) => React.ReactElement,
+    Title:   ( Props: ProductTitleProps ) => React.ReactElement,
 }
 
 
