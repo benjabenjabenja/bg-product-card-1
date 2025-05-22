@@ -6,7 +6,18 @@ _Curso de React Avanzado de Fernando Herrera (seccion 9)_
 
 ### Benja Dev
 
-## Ejemplo:
+##Instalar
+
+```
+npm install bg-product-card-1
+```
+
+1. [Componente de boto] (#ProductButtons)
+2. [Componente de card] (#ProductCard)
+3. [Componente de imagen] (#ProductImage)
+3. [Componente de titulo] (#ProductTitle)
+
+## Ejemplo de uso:
 
 ```
 import { ProductCard, ProductImage, ProductTitle, ProductButtons, } from 'bg-product-card-1'
